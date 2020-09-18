@@ -39,5 +39,11 @@ docker run -itd -v ${PWD}:/var/www -p 3000:3000 <image-name>
   
 now check with server ip:3000 your app will be running 
 
+## Creating React app using docker-compose
+
+we can create react app with single command by docker compose 
+
+$ docker-compose up -d
+
 
 
