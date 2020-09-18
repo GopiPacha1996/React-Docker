@@ -28,6 +28,13 @@ Now run the below command to run the react app on docker container
 
 docker run -itd -v ${PWD}:/var/www -p 3000:3000 <image-name>
   
+  ($ docker run -itd --rm \
+-v ${PWD}:/app \
+-v /app/node_modules \
+-p 3001:3000 \
+-e CHOKIDAR_USEPOLLING=true \
+<img_name>)
+  
 now check with server ip:3000 your app will be running 
 
 
