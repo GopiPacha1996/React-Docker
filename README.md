@@ -22,7 +22,9 @@ $ cd React-docker
 
 $ docker build -t <tag-you need>  .
 
-Docker image will be Built ypu can check with $ docker image ls
+Docker image will be Built ypu can check with
+
+$ docker image
 
 Now run the below command to run the react app on docker container
 
