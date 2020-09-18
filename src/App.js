@@ -11,7 +11,7 @@ class App extends Component {
           <h2>Welcome to Docker happy Learning</h2>
         </div>
         <p className="App-intro">
-          you can chabge content on src/App.js  Giver try and see some Magic!!!
+          you can chabge content on src/App.js  Give a try and see some Magic!!!
         </p>
       </div>
     );
